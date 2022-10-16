@@ -1,0 +1,115 @@
+.App {
+    text-align: center;
+  }
+  
+  nav{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh;
+    background: #05040a;
+    align-items: center;
+    color: aliceblue;
+    
+  }
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+    
+  }
+  .nav-links button{
+    
+    /* text-decoration: none; */
+    color: #05040a;
+    background: white;
+    padding: 6px;
+    border-radius: 8px;
+  }
+  .nav-links li:hover{
+    background-color: white;
+    color: #1f40fd;
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid #1f40fd;
+  
+  }
+  .nav-links .contact{
+    background:transparent;
+    color: aliceblue;
+    /* border-radius: 12px; */
+    padding: 7px;
+    border: 2px solid #1f40fd;
+  }
+  .nav-links .contact:hover{
+    background:aliceblue;
+    color: #1f40fd;
+  }
+  .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+  /* }
+  .nav-btn nav-close-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    visibility: hidden;
+    opacity: 0; */
+  /* }
+  .nav-btn nav-close-btn{
+    background: transparent;
+    color: aliceblue; */
+  }
+  /* div, .nav-links{
+    display: flex;
+    align-items: center;
+  } */
+  @media only screen and (max-width:1024px){
+    .nav-btn{
+      visibility: visible;
+      opacity: 1;
+    }
+ 
+    .nav-links{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #05040a;
+      /* color: aliceblue; */
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+    .responsive_nav{
+      transform: none;
+    }
+    .nav-close-btn{
+      position: absolute;
+      top: 0.5rem;
+      right: 8rem;
+      /* color: aliceblue; */
+      /* background: transparent;
+    border: none;
+    outline: none;
+      /* background: transparent; */
+      /* color: aliceblue; */
+    }
+  }

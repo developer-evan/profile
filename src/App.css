@@ -1,0 +1,97 @@
+.App {
+  text-align: center;}
+/* }
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  background: #05040a;
+  align-items: center;
+  color: aliceblue;
+  
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  list-style: none;
+  
+}
+.nav-links button{
+  
+  /* text-decoration: none; */
+  /* color: #05040a;
+  background: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+.nav-links li:hover{
+  background-color: white;
+  color: #05040a;
+  padding: 6px;
+  border-radius: 8px;
+
+} */ 
+.home{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+/* .home img{
+  /* border-radius: 100px; */
+ span{
+  color: #2a74fd;
+  font-size: xxx-large;
+
+ }
+ /* .resume{
+ margin-top: 10px;
+ } */
+ .resume button{
+  background: transparent;
+  color: #2a74fd;
+  border: 2px solid #2a74fd;
+  width: 115px;
+  height: 35px;
+  font-size: large;
+  margin-top: 44px;
+  margin-bottom: 26px;
+ }
+ .resume button:hover{
+  color: #fff;
+  background: #2a74fd;
+ }
+ .connect{
+  color: #2a74fd;
+  height: 50px;
+  /* justify-content: space-around;
+   */
+   padding: 5px;
+
+ }
+ 
+ @media only screen and (max-width:1024px){
+  .home{
+    display: block;
+  }
+  span{
+    font-size: xx-large;
+  }
+  .home img{
+    height: 230px;
+    width: 230px;
+    margin-right: 12px;
+  }
+  .content{
+    /* margin-right: 8px; */
+    /* width: 250px; */
+    font-size: large;
+    padding-left: 4px;
+    /* text-align: center; */
+    /* padding-left: 6px; */
+    padding-right: 4px;
+
+  }
+ }

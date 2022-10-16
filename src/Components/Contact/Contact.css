@@ -1,0 +1,22 @@
+/* .app header{
+    background-image: url('./images/contact.jpg');
+} */
+.App{
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+.contacct{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 50px;
+}
+
+
+
+@media only screen and (max-width:1024px){
+    /* .App{
+        width: 50%;
+        height: 250px;
+    } */
+}

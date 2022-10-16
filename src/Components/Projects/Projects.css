@@ -1,0 +1,19 @@
+.projects{
+    width: 300px;
+    height: 200px;
+    border-bottom: 2px solid blue;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#2f64f5,white);
+    
+    /* display: flex; */
+
+}
+/* .App-Projects{
+    display: inline-block;
+} */
+.projo{
+    display: flex;
+    justify-content: space-evenly;
+}
